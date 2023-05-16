@@ -1,0 +1,23 @@
+        
+        <label>Employee ID:</label>
+        <input type="text" id="idInput"><br>
+        <label>Email:</label>
+        <input type="email" id="emailInput"><br>
+        <label>Work Mood:</label>
+        <input type="text" id="workMoodInput"><br>
+        <label>Salary:</label>
+        <input type="number" id="salaryInput"><br>
+
+
+
+
+        js
+
+        
+
+
+          
+  var email = document.getElementById('emailInput').value;
+  var workMood = document.getElementById('workMoodInput').value;
+  var salary = parseInt(document.getElementById('salaryInput').value);
+  var isManager = document.querySelector('input[name="manager"]:checked').value === 'yes';
